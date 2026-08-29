@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy to GitHub Pages (via gh-pages)
 
 on:
   push:
@@ -11,10 +11,11 @@ permissions:
   id-token: write
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Prepare site
         run: |
@@ -22,19 +23,15 @@ jobs:
           mkdir -p public
           # Copy portfolio.html to be served as index
           cp portfolio.html public/index.html || true
-          # Copy assets if they exist
+          # Copy assets if present
           if [ -d assets ]; then
             cp -r assets public/
           fi
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: public
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          # optional: keep history or not
+          # keep_files: false

@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
@@ -11,10 +11,7 @@
       name="keywords"
       content="Vishwajeet Raj, portfolio, software developer, AI/ML, CSE student, game development"
     />
-    <meta
-      property="og:title"
-      content="Vishwajeet Raj | Software Developer & AI/ML Enthusiast"
-    />
+    <meta property="og:title" content="Vishwajeet Raj | Software Developer & AI/ML Enthusiast" />
     <meta
       property="og:description"
       content="Curious software developer and B.Tech CSE student exploring AI, application development, and game development."
@@ -41,28 +38,19 @@
         --success: #7cf1c7;
         --warning: #ffca6a;
         --shadow: 0 20px 50px rgba(9, 15, 24, 0.45);
-        --gradient: linear-gradient(
-          135deg,
-          #6ea8ff 0%,
-          #8f7bff 40%,
-          #bd69ff 100%
-        );
-        --gradient-soft: linear-gradient(
-          135deg,
-          rgba(110, 168, 255, 0.18),
-          rgba(189, 105, 255, 0.18)
-        );
-        --surface: rgba(255, 255, 255, 0.02);
-        --input: rgba(255, 255, 255, 0.04);
-        --input-border: rgba(255, 255, 255, 0.08);
+        --gradient: linear-gradient(135deg, #6ea8ff 0%, #8f7bff 40%, #bd69ff 100%);
+        --gradient-soft: linear-gradient(135deg, rgba(110,168,255,0.18), rgba(189,105,255,0.18));
+        --surface: rgba(255,255,255,0.02);
+        --input: rgba(255,255,255,0.04);
+        --input-border: rgba(255,255,255,0.08);
       }
 
-      html[data-theme="light"] {
+      html[data-theme='light'] {
         --bg: #edf3ff;
         --bg-soft: #f7f9ff;
         --bg-elevated: rgba(255, 255, 255, 0.7);
         --bg-panel: rgba(255, 255, 255, 0.8);
-        --card: rgba(255, 255, 255, 0.9);
+        --card: rgba(255,255,255,0.9);
         --card-strong: #f2f6ff;
         --text: #122033;
         --muted: #54657f;
@@ -75,17 +63,8 @@
         --success: #188f67;
         --warning: #b9700f;
         --shadow: 0 20px 50px rgba(18, 32, 51, 0.08);
-        --gradient: linear-gradient(
-          135deg,
-          #5d7cff 0%,
-          #7f5af0 45%,
-          #b069f4 100%
-        );
-        --gradient-soft: linear-gradient(
-          135deg,
-          rgba(93, 124, 255, 0.12),
-          rgba(176, 105, 244, 0.12)
-        );
+        --gradient: linear-gradient(135deg, #5d7cff 0%, #7f5af0 45%, #b069f4 100%);
+        --gradient-soft: linear-gradient(135deg, rgba(93,124,255,0.12), rgba(176,105,244,0.12));
         --surface: rgba(12, 24, 50, 0.02);
         --input: rgba(12, 24, 50, 0.03);
         --input-border: rgba(12, 24, 50, 0.1);
@@ -103,22 +82,12 @@
         margin: 0;
         font-family: "Segoe UI", Inter, Arial, sans-serif;
         background:
-          radial-gradient(
-            circle at top left,
-            rgba(123, 107, 255, 0.12),
-            transparent 35%
-          ),
-          radial-gradient(
-            circle at top right,
-            rgba(78, 151, 255, 0.12),
-            transparent 25%
-          ),
+          radial-gradient(circle at top left, rgba(123, 107, 255, 0.12), transparent 35%),
+          radial-gradient(circle at top right, rgba(78, 151, 255, 0.12), transparent 25%),
           var(--bg);
         color: var(--text);
         line-height: 1.6;
-        transition:
-          background 0.35s ease,
-          color 0.35s ease;
+        transition: background 0.35s ease, color 0.35s ease;
       }
 
       img {
@@ -167,18 +136,10 @@
         content: "";
         width: 30px;
         height: 1px;
-        background: linear-gradient(
-          90deg,
-          transparent,
-          var(--primary),
-          transparent
-        );
+        background: linear-gradient(90deg, transparent, var(--primary), transparent);
       }
 
-      h1,
-      h2,
-      h3,
-      h4 {
+      h1, h2, h3, h4 {
         margin: 0;
         line-height: 1.08;
       }
@@ -205,7 +166,7 @@
         box-shadow: 0 8px 28px rgba(0, 0, 0, 0.14);
       }
 
-      html[data-theme="light"] .site-header.scrolled {
+      html[data-theme='light'] .site-header.scrolled {
         background: rgba(237, 243, 255, 0.8);
       }
 
@@ -286,12 +247,9 @@
       .chip,
       .nav-toggle {
         border: 1px solid var(--border);
-        background: rgba(255, 255, 255, 0.02);
+        background: rgba(255,255,255,0.02);
         color: var(--text);
-        transition:
-          transform 0.2s ease,
-          border-color 0.2s ease,
-          background 0.2s ease;
+        transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
       }
 
       .theme-toggle {
@@ -327,7 +285,7 @@
       }
 
       .btn.secondary {
-        background: rgba(255, 255, 255, 0.04);
+        background: rgba(255,255,255,0.04);
         border: 1px solid var(--border);
         box-shadow: none;
         color: var(--text);
@@ -400,7 +358,7 @@
         padding: 0.58rem 0.92rem;
         border: 1px solid var(--border);
         color: var(--muted-strong);
-        background: rgba(255, 255, 255, 0.02);
+        background: rgba(255,255,255,0.02);
       }
 
       .hero-actions {
@@ -426,7 +384,7 @@
         padding: 0.7rem 0.95rem;
         border-radius: 999px;
         border: 1px solid var(--border);
-        background: rgba(255, 255, 255, 0.02);
+        background: rgba(255,255,255,0.02);
       }
 
       .hero-visual {
@@ -442,14 +400,8 @@
         aspect-ratio: 1;
         border-radius: 50%;
         padding: 18px;
-        background: linear-gradient(
-          135deg,
-          rgba(106, 129, 255, 0.2),
-          rgba(189, 105, 255, 0.14)
-        );
-        box-shadow:
-          inset 0 0 40px rgba(255, 255, 255, 0.06),
-          var(--shadow);
+        background: linear-gradient(135deg, rgba(106, 129, 255, 0.2), rgba(189, 105, 255, 0.14));
+        box-shadow: inset 0 0 40px rgba(255,255,255,0.06), var(--shadow);
       }
 
       .portrait-shell::before {
@@ -457,12 +409,7 @@
         position: absolute;
         inset: -18px;
         border-radius: 50%;
-        background: linear-gradient(
-          135deg,
-          rgba(126, 101, 255, 0.35),
-          rgba(90, 170, 255, 0.18),
-          transparent 72%
-        );
+        background: linear-gradient(135deg, rgba(126, 101, 255, 0.35), rgba(90, 170, 255, 0.18), transparent 72%);
         filter: blur(18px);
         z-index: -1;
       }
@@ -473,12 +420,8 @@
         height: 100%;
         overflow: hidden;
         border-radius: 50%;
-        border: 1px solid rgba(255, 255, 255, 0.08);
-        background: linear-gradient(
-          135deg,
-          rgba(12, 18, 28, 0.6),
-          rgba(31, 39, 52, 0.5)
-        );
+        border: 1px solid rgba(255,255,255,0.08);
+        background: linear-gradient(135deg, rgba(12, 18, 28, 0.6), rgba(31, 39, 52, 0.5));
       }
 
       .portrait-frame img {
@@ -576,11 +519,7 @@
         padding: 14px 18px;
         border-radius: 18px;
         border: 1px solid var(--border);
-        background: linear-gradient(
-          135deg,
-          rgba(124, 157, 255, 0.05),
-          rgba(181, 130, 255, 0.04)
-        );
+        background: linear-gradient(135deg, rgba(124,157,255,0.05), rgba(181,130,255,0.04));
       }
 
       .step-index {
@@ -614,7 +553,7 @@
 
       .skill-card {
         position: relative;
-        background: rgba(255, 255, 255, 0.02);
+        background: rgba(255,255,255,0.02);
         border: 1px solid var(--border);
         border-radius: 24px;
         padding: 24px 18px 18px;
@@ -625,9 +564,7 @@
         align-items: center;
         justify-content: center;
         overflow: hidden;
-        transition:
-          transform 0.25s ease,
-          border-color 0.25s ease;
+        transition: transform 0.25s ease, border-color 0.25s ease;
       }
 
       .skill-card:hover {
@@ -643,14 +580,9 @@
         border-radius: 50%;
         display: grid;
         place-items: center;
-        background: conic-gradient(
-          var(--primary) calc(var(--percentage) * 1%),
-          rgba(255, 255, 255, 0.08) 0
-        );
+        background: conic-gradient(var(--primary) calc(var(--percentage) * 1%), rgba(255,255,255,0.08) 0);
         margin-bottom: 16px;
-        transition:
-          transform 0.5s ease,
-          opacity 0.5s ease;
+        transition: transform 0.5s ease, opacity 0.5s ease;
       }
 
       .ring::before {
@@ -659,7 +591,7 @@
         inset: 10px;
         border-radius: 50%;
         background: rgba(13, 19, 30, 0.95);
-        border: 1px solid rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255,255,255,0.05);
       }
 
       .ring-value {
@@ -707,7 +639,7 @@
 
       .category-box {
         flex: 1 1 240px;
-        background: rgba(255, 255, 255, 0.02);
+        background: rgba(255,255,255,0.02);
         border: 1px solid var(--border);
         border-radius: 20px;
         padding: 22px;
@@ -728,7 +660,7 @@
         padding: 0.52rem 0.8rem;
         border-radius: 10px;
         font-size: 0.82rem;
-        background: rgba(255, 255, 255, 0.02);
+        background: rgba(255,255,255,0.02);
       }
 
       .tools-grid {
@@ -745,17 +677,15 @@
         gap: 12px;
         padding: 28px 18px 22px;
         border-radius: 22px;
-        background: rgba(255, 255, 255, 0.02);
+        background: rgba(255,255,255,0.02);
         border: 1px solid var(--border);
         text-align: center;
-        transition:
-          transform 0.25s ease,
-          border-color 0.25s ease;
+        transition: transform 0.25s ease, border-color 0.25s ease;
       }
 
       .tool-card:hover {
         transform: translateY(-4px);
-        border-color: rgba(124, 157, 255, 0.45);
+        border-color: rgba(124,157,255,0.45);
       }
 
       .tool-icon {
@@ -765,7 +695,7 @@
         display: grid;
         place-items: center;
         background: var(--gradient-soft);
-        border: 1px solid rgba(124, 157, 255, 0.18);
+        border: 1px solid rgba(124,157,255,0.18);
         font-size: 1.8rem;
       }
 
@@ -793,7 +723,7 @@
         appearance: none;
         border: 1px solid var(--border);
         border-radius: 999px;
-        background: rgba(255, 255, 255, 0.02);
+        background: rgba(255,255,255,0.02);
         color: var(--muted-strong);
         padding: 0.7rem 1rem;
         font-weight: 700;
@@ -817,16 +747,14 @@
         gap: 18px;
         padding: 22px;
         border-radius: 22px;
-        background: rgba(255, 255, 255, 0.02);
+        background: rgba(255,255,255,0.02);
         border: 1px solid var(--border);
-        transition:
-          transform 0.25s ease,
-          border-color 0.25s ease;
+        transition: transform 0.25s ease, border-color 0.25s ease;
       }
 
       .project-card:hover {
         transform: translateY(-3px);
-        border-color: rgba(124, 157, 255, 0.38);
+        border-color: rgba(124,157,255,0.38);
       }
 
       .project-top {
@@ -845,7 +773,7 @@
         font-weight: 700;
         letter-spacing: 0.08em;
         text-transform: uppercase;
-        background: rgba(124, 157, 255, 0.12);
+        background: rgba(124,157,255,0.12);
         color: var(--primary);
       }
 
@@ -897,7 +825,7 @@
         padding: 0.45rem 0.7rem;
         border-radius: 999px;
         border: 1px solid var(--border);
-        background: rgba(255, 255, 255, 0.02);
+        background: rgba(255,255,255,0.02);
         font-size: 0.72rem;
         color: var(--muted-strong);
       }
@@ -915,22 +843,14 @@
         min-height: 220px;
         border-radius: 24px;
         border: 1px solid var(--border);
-        background: linear-gradient(
-          135deg,
-          rgba(124, 157, 255, 0.08),
-          rgba(181, 130, 255, 0.04)
-        );
+        background: linear-gradient(135deg, rgba(124,157,255,0.08), rgba(181,130,255,0.04));
       }
 
       .explore-card::before {
         content: "";
         position: absolute;
         inset: 0;
-        background: radial-gradient(
-          circle at top right,
-          rgba(124, 157, 255, 0.18),
-          transparent 30%
-        );
+        background: radial-gradient(circle at top right, rgba(124,157,255,0.18), transparent 30%);
       }
 
       .explore-card > * {
@@ -942,8 +862,8 @@
         display: inline-block;
         padding: 0.5rem 0.7rem;
         border-radius: 999px;
-        border: 1px solid rgba(124, 157, 255, 0.3);
-        background: rgba(124, 157, 255, 0.1);
+        border: 1px solid rgba(124,157,255,0.3);
+        background: rgba(124,157,255,0.1);
         color: var(--primary);
         font-size: 0.72rem;
         letter-spacing: 0.08em;
@@ -961,8 +881,8 @@
         display: grid;
         place-items: center;
         min-height: 240px;
-        background: rgba(255, 255, 255, 0.02);
-        border: 1px dashed rgba(124, 157, 255, 0.3);
+        background: rgba(255,255,255,0.02);
+        border: 1px dashed rgba(124,157,255,0.3);
         border-radius: 24px;
         text-align: center;
         padding: 24px;
@@ -987,7 +907,7 @@
         gap: 18px;
         padding: 24px 24px 20px;
         border-radius: 22px;
-        background: rgba(255, 255, 255, 0.02);
+        background: rgba(255,255,255,0.02);
         border: 1px solid var(--border);
       }
 
@@ -999,7 +919,7 @@
         place-items: center;
         font-size: 1.4rem;
         background: var(--gradient-soft);
-        border: 1px solid rgba(124, 157, 255, 0.18);
+        border: 1px solid rgba(124,157,255,0.18);
       }
 
       .edu-card h3 {
@@ -1029,23 +949,17 @@
         padding: 18px 18px;
         border-radius: 20px;
         border: 1px solid var(--border);
-        background: rgba(255, 255, 255, 0.02);
-        transition:
-          transform 0.25s ease,
-          border-color 0.25s ease;
+        background: rgba(255,255,255,0.02);
+        transition: transform 0.25s ease, border-color 0.25s ease;
       }
 
       .social-card.primary {
-        background: linear-gradient(
-          135deg,
-          rgba(124, 157, 255, 0.1),
-          rgba(181, 130, 255, 0.08)
-        );
+        background: linear-gradient(135deg, rgba(124,157,255,0.1), rgba(181,130,255,0.08));
       }
 
       .social-card:hover {
         transform: translateY(-3px);
-        border-color: rgba(124, 157, 255, 0.38);
+        border-color: rgba(124,157,255,0.38);
       }
 
       .social-icon {
@@ -1074,7 +988,7 @@
         gap: 8px;
         padding: 0.56rem 0.9rem;
         border-radius: 999px;
-        background: rgba(255, 255, 255, 0.03);
+        background: rgba(255,255,255,0.03);
         border: 1px solid var(--border);
         font-weight: 600;
       }
@@ -1082,7 +996,7 @@
       .experience-card {
         padding: 28px;
         border-radius: 22px;
-        background: rgba(255, 255, 255, 0.02);
+        background: rgba(255,255,255,0.02);
         border: 1px solid var(--border);
       }
 
@@ -1196,7 +1110,7 @@
         padding: 0.5rem 0.7rem;
         border-radius: 999px;
         border: 1px solid var(--border);
-        background: rgba(255, 255, 255, 0.02);
+        background: rgba(255,255,255,0.02);
       }
 
       .hidden {
@@ -1206,9 +1120,7 @@
       .reveal {
         opacity: 0;
         transform: translateY(22px);
-        transition:
-          opacity 0.7s ease,
-          transform 0.7s ease;
+        transition: opacity 0.7s ease, transform 0.7s ease;
       }
 
       .reveal.is-visible {
@@ -1255,8 +1167,8 @@
           box-shadow: var(--shadow);
         }
 
-        html[data-theme="light"] .nav-links {
-          background: rgba(237, 243, 255, 0.96);
+        html[data-theme='light'] .nav-links {
+          background: rgba(237,243,255,0.96);
         }
 
         .nav-links.is-open {
@@ -1330,12 +1242,7 @@
     </style>
   </head>
   <body>
-    <div
-      id="loader"
-      class="hidden"
-      aria-live="polite"
-      aria-label="Loading page"
-    >
+    <div id="loader" class="hidden" aria-live="polite" aria-label="Loading page">
       <style>
         #loader {
           position: fixed;
@@ -1358,11 +1265,7 @@
           border-radius: 22px;
           display: grid;
           place-items: center;
-          background: linear-gradient(
-            135deg,
-            rgba(124, 157, 255, 1),
-            rgba(181, 130, 255, 1)
-          );
+          background: linear-gradient(135deg, rgba(124,157,255,1), rgba(181,130,255,1));
           box-shadow: 0 30px 60px rgba(105, 117, 255, 0.35);
           font-size: 2rem;
           font-weight: 800;
@@ -1374,7 +1277,7 @@
           width: 180px;
           height: 4px;
           border-radius: 999px;
-          background: rgba(255, 255, 255, 0.08);
+          background: rgba(255,255,255,0.08);
           overflow: hidden;
         }
 
@@ -1389,15 +1292,9 @@
         }
 
         @keyframes loaderPulse {
-          0% {
-            transform: translateX(-20%);
-          }
-          50% {
-            transform: translateX(210%);
-          }
-          100% {
-            transform: translateX(-20%);
-          }
+          0% { transform: translateX(-20%); }
+          50% { transform: translateX(210%); }
+          100% { transform: translateX(-20%); }
         }
       </style>
       <div class="loader-inner">
@@ -1424,29 +1321,9 @@
         </nav>
 
         <div class="header-actions">
-          <button
-            class="theme-toggle"
-            type="button"
-            aria-label="Toggle color theme"
-            id="themeToggle"
-          >
-            ☼
-          </button>
-          <a
-            href="https://docs.google.com/document/d/1-UJcGejnphSL-4JBp4pvva775_qUg63U/edit?usp=sharing&ouid=111436694660552127962&rtpof=true&sd=true"
-            class="btn resume-button"
-            target="_blank"
-            rel="noreferrer"
-            >Download Resume</a
-          >
-          <button
-            class="nav-toggle"
-            type="button"
-            aria-label="Open navigation menu"
-            id="navToggle"
-          >
-            ☰
-          </button>
+          <button class="theme-toggle" type="button" aria-label="Toggle color theme" id="themeToggle">☼</button>
+          <a href="https://docs.google.com/document/d/1-UJcGejnphSL-4JBp4pvva775_qUg63U/edit?usp=sharing&ouid=111436694660552127962&rtpof=true&sd=true" class="btn resume-button" target="_blank" rel="noreferrer">Download Resume</a>
+          <button class="nav-toggle" type="button" aria-label="Open navigation menu" id="navToggle">☰</button>
         </div>
       </div>
     </header>
@@ -1457,13 +1334,12 @@
           <div class="hero-copy reveal">
             <p class="eyebrow">B.Tech CSE Student</p>
             <h1>
-              I build <span class="highlight">practical software</span>, explore
-              intelligent systems, and turn ideas into working projects.
+              I build <span class="highlight">practical software</span>, explore intelligent systems,
+              and turn ideas into working projects.
             </h1>
             <p class="hero-subtitle">
-              Vishwajeet Raj is a curious Computer Science student focused on
-              software development, application building, AI/ML learning, and
-              creative technology exploration.
+              Vishwajeet Raj is a curious Computer Science student focused on software development,
+              application building, AI/ML learning, and creative technology exploration.
             </p>
 
             <div class="hero-details" aria-label="Professional details">
@@ -1474,39 +1350,20 @@
 
             <div class="hero-actions">
               <a class="btn" href="#projects">View Projects</a>
-              <a
-                class="btn secondary"
-                href="https://docs.google.com/document/d/1-UJcGejnphSL-4JBp4pvva775_qUg63U/edit?usp=sharing&ouid=111436694660552127962&rtpof=true&sd=true"
-                target="_blank"
-                rel="noreferrer"
-                >Download Resume</a
-              >
+              <a class="btn secondary" href="https://docs.google.com/document/d/1-UJcGejnphSL-4JBp4pvva775_qUg63U/edit?usp=sharing&ouid=111436694660552127962&rtpof=true&sd=true" target="_blank" rel="noreferrer">Download Resume</a>
               <a class="btn ghost" href="#contact">Contact Me</a>
             </div>
 
             <div class="inline-links" aria-label="Social links">
-              <a
-                href="https://github.com/vishwaa213"
-                target="_blank"
-                rel="noreferrer"
-                >GitHub</a
-              >
-              <a
-                href="http://www.linkedin.com/in/vishwa213/"
-                target="_blank"
-                rel="noreferrer"
-                >LinkedIn</a
-              >
+              <a href="https://github.com/vishwaa213" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="http://www.linkedin.com/in/vishwa213/" target="_blank" rel="noreferrer">LinkedIn</a>
             </div>
           </div>
 
           <div class="hero-visual reveal" aria-label="Profile portrait area">
             <div class="portrait-shell">
               <div class="portrait-frame">
-                <img
-                  src="assets/profile-photo.jpg.png"
-                  alt="Portrait illustration for Vishwajeet Raj"
-                />
+                <img src="assets/profile-placeholder.svg" alt="Portrait illustration for Vishwajeet Raj" />
               </div>
             </div>
 
@@ -1527,41 +1384,32 @@
           <div class="section-head reveal">
             <div>
               <p class="eyebrow">About</p>
-              <h2>
-                Curious, analytical, and building toward software excellence.
-              </h2>
+              <h2>Curious, analytical, and building toward software excellence.</h2>
             </div>
             <p>
-              I am a B.Tech Computer Science and Engineering student interested
-              in understanding problems, learning technologies quickly, and
-              turning ideas into practical software solutions.
+              I am a B.Tech Computer Science and Engineering student interested in understanding problems,
+              learning technologies quickly, and turning ideas into practical software solutions.
             </p>
           </div>
 
           <div class="about-grid">
             <div class="panel text-block reveal">
               <p>
-                I enjoy solving problems by understanding the root cause,
-                thinking logically, and creating useful solutions that can be
-                tested, improved, and expanded over time.
+                I enjoy solving problems by understanding the root cause, thinking logically, and creating
+                useful solutions that can be tested, improved, and expanded over time.
               </p>
               <p>
-                My interests include software development, artificial
-                intelligence, machine learning, application development, and
-                game development. I like learning new tools, experimenting with
+                My interests include software development, artificial intelligence, machine learning,
+                application development, and game development. I like learning new tools, experimenting with
                 ideas, and translating them into working code.
               </p>
               <p>
-                I am building toward a strong software engineering foundation
-                while exploring AI and ML more deeply, along with intelligent
-                software experiences and AI-assisted creative projects.
+                I am building toward a strong software engineering foundation while exploring AI and ML more
+                deeply, along with intelligent software experiences and AI-assisted creative projects.
               </p>
             </div>
 
-            <div
-              class="panel philosophy reveal"
-              aria-label="Development philosophy"
-            >
+            <div class="panel philosophy reveal" aria-label="Development philosophy">
               <div class="philosophy-row">
                 <span class="step-index">1</span>
                 <span class="step-label">Understand the problem</span>
@@ -1595,99 +1443,82 @@
               <h2>Core strengths and growing technical depth.</h2>
             </div>
             <p>
-              My current foundation is strong across core programming and web
-              technologies, with AI, ML, and game development as active areas of
-              exploration.
+              My current foundation is strong across core programming and web technologies, with AI, ML,
+              and game development as active areas of exploration.
             </p>
           </div>
 
           <div class="skill-grid reveal">
             <div class="skill-card" tabindex="0">
-              <div class="ring" style="--percentage: 72">
+              <div class="ring" style="--percentage:72;">
                 <span class="ring-value">C</span>
               </div>
               <h3>C</h3>
               <p>Intermediate</p>
-              <div class="skill-meta">
-                Problem solving, logic, and systems thinking.
-              </div>
+              <div class="skill-meta">Problem solving, logic, and systems thinking.</div>
             </div>
 
             <div class="skill-card" tabindex="0">
-              <div class="ring" style="--percentage: 72">
+              <div class="ring" style="--percentage:72;">
                 <span class="ring-value">C++</span>
               </div>
               <h3>C++</h3>
               <p>Intermediate</p>
-              <div class="skill-meta">
-                Object-oriented concepts and performance-focused logic.
-              </div>
+              <div class="skill-meta">Object-oriented concepts and performance-focused logic.</div>
             </div>
 
             <div class="skill-card" tabindex="0">
-              <div class="ring" style="--percentage: 70">
+              <div class="ring" style="--percentage:70;">
                 <span class="ring-value">Java</span>
               </div>
               <h3>Java</h3>
               <p>Intermediate</p>
-              <div class="skill-meta">
-                Structured programming and application design fundamentals.
-              </div>
+              <div class="skill-meta">Structured programming and application design fundamentals.</div>
             </div>
 
             <div class="skill-card" tabindex="0">
-              <div class="ring" style="--percentage: 70">
+              <div class="ring" style="--percentage:70;">
                 <span class="ring-value">Python</span>
               </div>
               <h3>Python</h3>
               <p>Intermediate</p>
-              <div class="skill-meta">
-                Rapid prototyping, automation, and learning-oriented coding.
-              </div>
+              <div class="skill-meta">Rapid prototyping, automation, and learning-oriented coding.</div>
             </div>
 
             <div class="skill-card" tabindex="0">
-              <div class="ring" style="--percentage: 70">
+              <div class="ring" style="--percentage:70;">
                 <span class="ring-value">HTML</span>
               </div>
               <h3>HTML</h3>
               <p>Intermediate</p>
-              <div class="skill-meta">
-                Semantic structure and accessible web composition.
-              </div>
+              <div class="skill-meta">Semantic structure and accessible web composition.</div>
             </div>
 
             <div class="skill-card" tabindex="0">
-              <div class="ring" style="--percentage: 70">
+              <div class="ring" style="--percentage:70;">
                 <span class="ring-value">CSS</span>
               </div>
               <h3>CSS</h3>
               <p>Intermediate</p>
-              <div class="skill-meta">
-                Responsive layouts and polished interface styling.
-              </div>
+              <div class="skill-meta">Responsive layouts and polished interface styling.</div>
             </div>
 
             <div class="skill-card" tabindex="0">
-              <div class="ring" style="--percentage: 70">
+              <div class="ring" style="--percentage:70;">
                 <span class="ring-value">JS</span>
               </div>
               <h3>JavaScript</h3>
               <p>Intermediate</p>
-              <div class="skill-meta">
-                Interactivity, UI behavior, and front-end logic.
-              </div>
+              <div class="skill-meta">Interactivity, UI behavior, and front-end logic.</div>
             </div>
 
             <div class="skill-card" tabindex="0">
-              <div class="ring" style="--percentage: 42">
+              <div class="ring" style="--percentage:42;">
                 <span class="ring-value">Raylib</span>
               </div>
               <h3>Raylib</h3>
               <p>Currently learning</p>
-              <div class="skill-meta">
-                Beginner exploration into game prototyping and graphics basics.
-              </div>
+              <div class="skill-meta">Beginner exploration into game prototyping and graphics basics.</div>
             </div>
           </div>
 
@@ -1822,39 +1653,19 @@
               <h2>Building practical software with clear intent.</h2>
             </div>
             <p>
-              My current portfolio is still growing, and each project reflects
-              real learning, iteration, and product thinking.
+              My current portfolio is still growing, and each project reflects real learning, iteration,
+              and product thinking.
             </p>
           </div>
 
           <div class="projects-panel panel reveal">
             <div class="filter-list" aria-label="Project filters">
-              <button
-                class="filter-btn is-active"
-                type="button"
-                data-filter="all"
-              >
-                All
-              </button>
-              <button class="filter-btn" type="button" data-filter="software">
-                Software
-              </button>
-              <button class="filter-btn" type="button" data-filter="web">
-                Web
-              </button>
-              <button class="filter-btn" type="button" data-filter="ai">
-                AI / ML
-              </button>
-              <button class="filter-btn" type="button" data-filter="games">
-                Games
-              </button>
-              <button
-                class="filter-btn"
-                type="button"
-                data-filter="experiments"
-              >
-                Experiments
-              </button>
+              <button class="filter-btn is-active" type="button" data-filter="all">All</button>
+              <button class="filter-btn" type="button" data-filter="software">Software</button>
+              <button class="filter-btn" type="button" data-filter="web">Web</button>
+              <button class="filter-btn" type="button" data-filter="ai">AI / ML</button>
+              <button class="filter-btn" type="button" data-filter="games">Games</button>
+              <button class="filter-btn" type="button" data-filter="experiments">Experiments</button>
             </div>
 
             <div class="project-grid">
@@ -1867,18 +1678,14 @@
                   <h3>ShopFlow Inventory Platform</h3>
                 </div>
                 <p>
-                  A practical platform concept for helping shop owners manage
-                  product inventory while giving customers visibility into order
-                  progress and status updates.
+                  A practical platform concept for helping shop owners manage product inventory while giving
+                  customers visibility into order progress and status updates.
                 </p>
 
                 <div class="meta-list">
                   <div class="meta-item">
                     <strong>Problem</strong>
-                    <span
-                      >Manual stock tracking and unclear order visibility create
-                      inefficiency for shop owners and customers.</span
-                    >
+                    <span>Manual stock tracking and unclear order visibility create inefficiency for shop owners and customers.</span>
                   </div>
                   <div class="meta-item">
                     <strong>Planned functionality</strong>
@@ -1891,17 +1698,11 @@
                   </div>
                   <div class="meta-item">
                     <strong>Development progress</strong>
-                    <span
-                      >Concept phase with active exploration and implementation
-                      work underway.</span
-                    >
+                    <span>Concept phase with active exploration and implementation work underway.</span>
                   </div>
                   <div class="meta-item">
                     <strong>Future improvements</strong>
-                    <span
-                      >Expand the platform with better workflows, cleaner UI,
-                      and deeper product features as the system evolves.</span
-                    >
+                    <span>Expand the platform with better workflows, cleaner UI, and deeper product features as the system evolves.</span>
                   </div>
                 </div>
 
@@ -1923,17 +1724,13 @@
                   <h3>Intelligent Utility Ideas</h3>
                 </div>
                 <p>
-                  An experimental area focused on understanding how AI can
-                  support software tools, decision-making workflows, and user
-                  assistance in practical systems.
+                  An experimental area focused on understanding how AI can support software tools, decision-making
+                  workflows, and user assistance in practical systems.
                 </p>
                 <div class="meta-list">
                   <div class="meta-item">
                     <strong>Current focus</strong>
-                    <span
-                      >Learning model workflows, problem framing, and practical
-                      AI application concepts.</span
-                    >
+                    <span>Learning model workflows, problem framing, and practical AI application concepts.</span>
                   </div>
                   <div class="meta-item">
                     <strong>Status</strong>
@@ -1965,26 +1762,17 @@
             <article class="explore-card">
               <span class="label">Exploring</span>
               <h3>AI-powered applications</h3>
-              <p>
-                Building useful software that can assist users with reasoning,
-                analysis, and task automation.
-              </p>
+              <p>Building useful software that can assist users with reasoning, analysis, and task automation.</p>
             </article>
             <article class="explore-card">
               <span class="label">Planned</span>
               <h3>Intelligent software tools</h3>
-              <p>
-                Using logic and data-driven approaches to solve real user
-                problems with cleaner interfaces.
-              </p>
+              <p>Using logic and data-driven approaches to solve real user problems with cleaner interfaces.</p>
             </article>
             <article class="explore-card">
               <span class="label">Coming Soon</span>
               <h3>AI-assisted game ideas</h3>
-              <p>
-                Combining game design thinking with AI interests to explore
-                interactive creative systems.
-              </p>
+              <p>Combining game design thinking with AI interests to explore interactive creative systems.</p>
             </article>
           </div>
         </div>
@@ -2002,10 +1790,7 @@
           <div class="cert-empty reveal">
             <div>
               <strong>Certificates coming soon</strong>
-              <p>
-                This section is intentionally ready for future achievements,
-                course credentials, and verified certifications.
-              </p>
+              <p>This section is intentionally ready for future achievements, course credentials, and verified certifications.</p>
             </div>
           </div>
         </div>
@@ -2046,12 +1831,7 @@
           </div>
 
           <div class="dev-grid reveal">
-            <a
-              class="social-card primary"
-              href="https://github.com/vishwaa213"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a class="social-card primary" href="https://github.com/vishwaa213" target="_blank" rel="noreferrer">
               <div class="social-icon">G</div>
               <div class="social-content">
                 <strong>GitHub</strong>
@@ -2060,12 +1840,7 @@
               <span class="social-link">Open</span>
             </a>
 
-            <a
-              class="social-card"
-              href="http://www.linkedin.com/in/vishwa213/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a class="social-card" href="http://www.linkedin.com/in/vishwa213/" target="_blank" rel="noreferrer">
               <div class="social-icon">in</div>
               <div class="social-content">
                 <strong>LinkedIn</strong>
@@ -2074,12 +1849,7 @@
               <span class="social-link">View</span>
             </a>
 
-            <a
-              class="social-card"
-              href="https://leetcode.com/u/vishwa213/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a class="social-card" href="https://leetcode.com/u/vishwa213/" target="_blank" rel="noreferrer">
               <div class="social-icon">L</div>
               <div class="social-content">
                 <strong>LeetCode</strong>
@@ -2088,12 +1858,7 @@
               <span class="social-link">Visit</span>
             </a>
 
-            <a
-              class="social-card"
-              href="https://leetcode.com/u/vishwa213/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a class="social-card" href="https://leetcode.com/u/vishwa213/" target="_blank" rel="noreferrer">
               <div class="social-icon">H</div>
               <div class="social-content">
                 <strong>HackerRank</strong>
@@ -2116,9 +1881,8 @@
 
           <div class="experience-card reveal">
             <p>
-              I am currently building practical software projects, learning
-              through implementation, and exploring technical areas that align
-              with my long-term direction in software engineering and AI.
+              I am currently building practical software projects, learning through implementation, and exploring
+              technical areas that align with my long-term direction in software engineering and AI.
             </p>
           </div>
         </div>
@@ -2135,9 +1899,7 @@
             <div class="contact-list">
               <div class="contact-item">
                 <div class="mini-icon">✉</div>
-                <a href="mailto:parmodkaushik2007@gmail.com"
-                  >parmodkaushik2007@gmail.com</a
-                >
+                <a href="mailto:parmodkaushik2007@gmail.com">parmodkaushik2007@gmail.com</a>
               </div>
               <div class="contact-item">
                 <div class="mini-icon">📍</div>
@@ -2145,9 +1907,7 @@
               </div>
             </div>
 
-            <a class="btn" href="mailto:parmodkaushik2007@gmail.com"
-              >Email Me</a
-            >
+            <a class="btn" href="mailto:parmodkaushik2007@gmail.com">Email Me</a>
           </div>
 
           <div class="panel reveal">
@@ -2174,10 +1934,7 @@
               </div>
 
               <button class="btn" type="submit">Submit</button>
-              <p class="contact-note">
-                This form is ready for a backend or email service connection
-                when you are ready to deploy it.
-              </p>
+              <p class="contact-note">This form is ready for a backend or email service connection when you are ready to deploy it.</p>
             </form>
           </div>
         </div>
@@ -2188,37 +1945,14 @@
       <div class="container footer-inner">
         <div class="footer-copy">
           <strong>Vishwajeet Raj</strong>
-          <span
-            >B.Tech CSE Student | Aspiring Software Developer | AI & ML
-            Engineer</span
-          >
+          <span>B.Tech CSE Student | Aspiring Software Developer | AI & ML Engineer</span>
         </div>
 
         <div class="footer-links" aria-label="Footer social links">
-          <a
-            href="https://github.com/vishwaa213"
-            target="_blank"
-            rel="noreferrer"
-            >GitHub</a
-          >
-          <a
-            href="http://www.linkedin.com/in/vishwa213/"
-            target="_blank"
-            rel="noreferrer"
-            >LinkedIn</a
-          >
-          <a
-            href="https://leetcode.com/u/vishwa213/"
-            target="_blank"
-            rel="noreferrer"
-            >LeetCode</a
-          >
-          <a
-            href="https://leetcode.com/u/vishwa213/"
-            target="_blank"
-            rel="noreferrer"
-            >HackerRank</a
-          >
+          <a href="https://github.com/vishwaa213" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="http://www.linkedin.com/in/vishwa213/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://leetcode.com/u/vishwa213/" target="_blank" rel="noreferrer">LeetCode</a>
+          <a href="https://leetcode.com/u/vishwa213/" target="_blank" rel="noreferrer">HackerRank</a>
           <a href="mailto:parmodkaushik2007@gmail.com">Email</a>
         </div>
       </div>
@@ -2226,114 +1960,102 @@
 
     <script>
       const root = document.documentElement;
-      const storedTheme = localStorage.getItem("portfolio-theme");
-      if (storedTheme === "light" || storedTheme === "dark") {
-        root.setAttribute("data-theme", storedTheme);
+      const storedTheme = localStorage.getItem('portfolio-theme');
+      if (storedTheme === 'light' || storedTheme === 'dark') {
+        root.setAttribute('data-theme', storedTheme);
       }
 
-      const themeToggle = document.getElementById("themeToggle");
+      const themeToggle = document.getElementById('themeToggle');
       const updateThemeIcon = () => {
-        const isLight = root.getAttribute("data-theme") === "light";
-        themeToggle.textContent = isLight ? "☾" : "☼";
-        themeToggle.setAttribute(
-          "aria-label",
-          isLight ? "Switch to dark theme" : "Switch to light theme",
-        );
+        const isLight = root.getAttribute('data-theme') === 'light';
+        themeToggle.textContent = isLight ? '☾' : '☼';
+        themeToggle.setAttribute('aria-label', isLight ? 'Switch to dark theme' : 'Switch to light theme');
       };
       updateThemeIcon();
 
-      themeToggle.addEventListener("click", () => {
-        const nextTheme =
-          root.getAttribute("data-theme") === "light" ? "dark" : "light";
-        root.setAttribute("data-theme", nextTheme);
-        localStorage.setItem("portfolio-theme", nextTheme);
+      themeToggle.addEventListener('click', () => {
+        const nextTheme = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+        root.setAttribute('data-theme', nextTheme);
+        localStorage.setItem('portfolio-theme', nextTheme);
         updateThemeIcon();
       });
 
-      const header = document.querySelector(".site-header");
+      const header = document.querySelector('.site-header');
       const onScroll = () => {
-        header.classList.toggle("scrolled", window.scrollY > 20);
+        header.classList.toggle('scrolled', window.scrollY > 20);
       };
       onScroll();
-      window.addEventListener("scroll", onScroll);
+      window.addEventListener('scroll', onScroll);
 
-      const navToggle = document.getElementById("navToggle");
-      const navLinks = document.querySelector(".nav-links");
-      navToggle.addEventListener("click", () => {
-        navLinks.classList.toggle("is-open");
+      const navToggle = document.getElementById('navToggle');
+      const navLinks = document.querySelector('.nav-links');
+      navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('is-open');
       });
 
-      navLinks.querySelectorAll("a").forEach((link) => {
-        link.addEventListener("click", () =>
-          navLinks.classList.remove("is-open"),
-        );
+      navLinks.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => navLinks.classList.remove('is-open'));
       });
 
-      const revealItems = document.querySelectorAll(".reveal");
+      const revealItems = document.querySelectorAll('.reveal');
       const observer = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
             if (entry.isIntersecting) {
-              entry.target.classList.add("is-visible");
+              entry.target.classList.add('is-visible');
               observer.unobserve(entry.target);
             }
           });
         },
-        { threshold: 0.1 },
+        { threshold: 0.1 }
       );
 
       revealItems.forEach((item) => observer.observe(item));
 
-      const filterButtons = document.querySelectorAll(".filter-btn");
-      const projectCards = document.querySelectorAll(".project-card");
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const projectCards = document.querySelectorAll('.project-card');
 
       filterButtons.forEach((button) => {
-        button.addEventListener("click", () => {
+        button.addEventListener('click', () => {
           const filter = button.dataset.filter;
-          filterButtons.forEach((item) =>
-            item.classList.toggle("is-active", item === button),
-          );
+          filterButtons.forEach((item) => item.classList.toggle('is-active', item === button));
 
           projectCards.forEach((card) => {
-            const categories = card.dataset.category || "";
-            const shouldShow = filter === "all" || categories.includes(filter);
-            card.style.display = shouldShow ? "grid" : "none";
+            const categories = card.dataset.category || '';
+            const shouldShow = filter === 'all' || categories.includes(filter);
+            card.style.display = shouldShow ? 'grid' : 'none';
           });
         });
       });
 
-      const contactForm = document.getElementById("contactForm");
-      contactForm.addEventListener("submit", (event) => {
+      const contactForm = document.getElementById('contactForm');
+      contactForm.addEventListener('submit', (event) => {
         event.preventDefault();
 
-        const name = document.getElementById("name");
-        const email = document.getElementById("email");
-        const subject = document.getElementById("subject");
-        const message = document.getElementById("message");
+        const name = document.getElementById('name');
+        const email = document.getElementById('email');
+        const subject = document.getElementById('subject');
+        const message = document.getElementById('message');
 
-        const invalid = [name, email, subject, message].some(
-          (field) => !field.value.trim(),
-        );
+        const invalid = [name, email, subject, message].some((field) => !field.value.trim());
         if (invalid) {
-          alert("Please complete all fields before submitting.");
+          alert('Please complete all fields before submitting.');
           return;
         }
 
-        if (!email.value.includes("@")) {
-          alert("Please enter a valid email address.");
+        if (!email.value.includes('@')) {
+          alert('Please enter a valid email address.');
           return;
         }
 
-        alert(
-          "Your message is ready to be connected to a mail service or backend endpoint.",
-        );
+        alert('Your message is ready to be connected to a mail service or backend endpoint.');
         contactForm.reset();
       });
 
-      window.addEventListener("load", () => {
-        const loader = document.getElementById("loader");
+      window.addEventListener('load', () => {
+        const loader = document.getElementById('loader');
         setTimeout(() => {
-          loader.classList.add("hidden");
+          loader.classList.add('hidden');
         }, 700);
       });
     </script>
